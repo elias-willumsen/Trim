@@ -6,3 +6,5 @@ Requires preinstalled yt-dlp, auto-editor tool and possibly FFMPEG.
 ```bash
   trim "video link"
 ```
+
+Needs to be added to path folder, run installer if you'd like.
