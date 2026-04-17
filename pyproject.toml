@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trimpy"
+version = "0.1.0"
+description = "CLI for downloading and trimming videos with yt-dlp, ffmpeg and auto-editor"
+requires-python = ">=3.10"
+
+[project.scripts]
+trim = "trim:main"
+
+[tool.setuptools]
+py-modules = ["trim"]
