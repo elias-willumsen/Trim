@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-#
+
 # Script for å kjøre yt-dlp med cookies fra Chrome, etterfulgt av auto-editor.
 # Forutsetter at yt-dlp, auto-editor og FFMPEG er installert.
 
-# Authored by Elias André Willumsen :D
+# Authored by Elias André Willumsen
 
 import argparse
 import re
